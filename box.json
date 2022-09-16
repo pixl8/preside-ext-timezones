@@ -1,0 +1,21 @@
+{
+    "name":"PresideCMS Extension: Timezone definitions",
+    "type":"preside-extensions",
+    "version":"$VERSION_NUMBER",
+    "location":"$DOWNLOAD_URL",
+    "private":false,
+    "author":"Pixl8",
+    "directory":"application/extensions",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/pixl8/preside-ext-timezones"
+    },
+    "slug":"preside-ext-timezones",
+    "projectURL":"https://github.com/pixl8/preside-ext-timezones",
+    "ignore":[
+        ".git/*",
+        ".gitignore",
+        ".github/*",
+        ".twgit_features_subject"
+    ]
+}
