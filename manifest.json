@@ -1,0 +1,7 @@
+{
+	  "id"        : "preside-ext-timezones"
+	, "title"     : "Timezone helpers"
+	, "author"    : "Pixl8"
+	, "version"   : "$VERSION_NUMBER"
+	, "dependsOn" : []
+}
