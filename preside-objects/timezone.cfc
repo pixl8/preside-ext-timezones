@@ -1,5 +1,5 @@
 /**
- * @noLabel
+ * @labelfield id
  * @versioned  false
  */
 
