@@ -80,7 +80,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
+          tag_name: ${{ steps.versiongen.outputs.semver_release_string }}
           release_name: Release ${{ steps.versiongen.outputs.semver_release_string }}
           draft: false
           prerelease: ${{ steps.versiongen.outputs.semver_release_is_snapshot }}
