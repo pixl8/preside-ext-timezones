@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.2
+
+* Apply translation manager CI action
+
 ## v1.1.1
 
 * Update build version generator
